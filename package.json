@@ -1,0 +1,24 @@
+{
+  "name": "skills",
+  "version": "0.0.1",
+  "description": "skills",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myaxt/skills.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Miguel Yax <mig_dj@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myaxt/skills/issues"
+  },
+  "homepage": "https://github.com/myaxt/skills#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
