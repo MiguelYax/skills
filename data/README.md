@@ -15,7 +15,7 @@ Plain JSON list like this:
     {
         "name": "JavaScript",
         "type": "ComputerLanguage",
-        "info": "http://en.wikipedia.org/wiki/JavaScript"
+        "url": "http://en.wikipedia.org/wiki/JavaScript"
     }
 ]
 ```
