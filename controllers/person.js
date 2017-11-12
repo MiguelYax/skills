@@ -39,4 +39,4 @@ let controller = {
     },
 };
 
-exports = controller; 
+module.exports = controller; 
