@@ -8,7 +8,7 @@
         "latedef": false,
         "newcap": true,
         "undef": true,
-        "unused": true,
+        "unused": false,
         "trailing": true,
         "node": true,
         "browser": true,
