@@ -1,5 +1,22 @@
 {
     "jshint.options": {
-        "esversion": 6
+        "esversion": 6,
+        "camelcase": true,
+        "curly": false,
+        "eqeqeq": true,
+        "forin": true,
+        "latedef": false,
+        "newcap": true,
+        "undef": true,
+        "unused": true,
+        "trailing": true,
+        "node": true,
+        "browser": true,
+        "predef": [
+            "it",
+            "describe",
+            "before",
+            "after"
+        ]
     }
 }

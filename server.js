@@ -35,10 +35,7 @@ app.use((req, res, next) => {
 
 let personRoutes = require('./routes/person');
 let languageRoutes = require('./routes/language');
-app.get('/', function (req, res) {
-    // res.send()
-    response.sendfile(file, { root: './doc/' });
-});
+
 personRoutes(app);
 languageRoutes(app);
 
