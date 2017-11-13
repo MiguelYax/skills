@@ -38,7 +38,7 @@ let personSchema = new Schema({
     isActive: Boolean,
     birtday: {
         day: Number,
-        mounth: Number,
+        month: Number,
         year: Number
     },
     registered: {
