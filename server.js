@@ -4,11 +4,14 @@
  * Skills API RESTful
  */
 
+
+
 const express = require('express'),
     app = express(),
     mongoose = require('mongoose'),
     Person = require('./models/person'),
     bodyParser = require('body-parser'),
+    path = require('path'),
     port = process.env.PORT || 3000;
 
 mongoose.Promise = global.Promise;
@@ -17,7 +20,7 @@ mongoose.connect('mongodb://localhost/demo');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
+app.use(express.static(path.join(__dirname, 'doc')));
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -32,6 +35,10 @@ app.use((req, res, next) => {
 
 let personRoutes = require('./routes/person');
 let languageRoutes = require('./routes/language');
+app.get('/', function (req, res) {
+    // res.send()
+    response.sendfile(file, { root: './doc/' });
+});
 personRoutes(app);
 languageRoutes(app);
 

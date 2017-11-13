@@ -21,5 +21,14 @@
   "dependencies": {
     "express": "^4.16.2",
     "mongoose": "^4.13.1"
+  },
+  "apidoc": {
+    "name": "Skills - API RESTful - Documentation",
+    "description": "",
+    "url": "http://localhost:3000",
+    "template": {
+      "withCompare": false,
+      "withGenerator": false
+    }
   }
 }
