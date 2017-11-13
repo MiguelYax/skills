@@ -8,8 +8,8 @@ const languages = require('../data/languages.json');
 
 let controller = {
     /**
-     * @api {get} /languages/ Request 
-     * @apiName laguages
+     * @api {get} /languages/ getAll 
+     * @apiName getAll
      * @apiGroup Language
      *
      *
@@ -17,11 +17,11 @@ let controller = {
      *
      * @apiSuccessExample Success-Response:
      *     HTTP/1.1 200 OK
-     *     [{
-     *           "name": "JavaScript",
-     *           "type": "ComputerLanguage",
-     *           "url": "http://en.wikipedia.org/wiki/JavaScript"
-     *     }]
+             [{
+                "name": "JavaScript",
+                "type": "ComputerLanguage",
+                "url": "http://en.wikipedia.org/wiki/JavaScript"
+           }]
      *
      * @apiErrorExample Error-Response:
      *     HTTP/1.1 404 Not Found
