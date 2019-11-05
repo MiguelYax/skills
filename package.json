@@ -20,7 +20,7 @@
   "homepage": "https://github.com/myaxt/skills#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "mongoose": "^4.13.18"
+    "mongoose": "^5.7.5"
   },
   "apidoc": {
     "name": "Skills - API RESTful - Documentation",
